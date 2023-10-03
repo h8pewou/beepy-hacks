@@ -1,0 +1,15 @@
+#Example .screenrc file
+
+autodetach on 
+startup_message off 
+
+backtick 1 1 5 $HOME/bin/battery_tail.sh
+
+# Display the status line at the bottom
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.kW}%-w%{.bW}%t [%n]%{-}%+w %=%{..G} bat: %1` %{..B} %{= w}%c:%s"
+
+screen -t "clk" tty-clock -SBr
+screen -t "wtr" $HOME/bin/weather.sh
+screen -t "sh" bash
