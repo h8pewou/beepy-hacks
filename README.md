@@ -11,12 +11,15 @@ Email
 Matrix
 - gomuks: https://discord.com/channels/1108020055318462606/1129925312512278558
 
+Stocks:
+- tstock: https://github.com/Gbox4/tstock
+
 ### Scripts
 | Description | Link |
 |-------------|------|
 | Weather from `wttr.in` |  https://github.com/k5njm/beepy-hacks/scripts/wx |
 | Zoom Script |  https://github.com/k5njm/beepy-hacks/blob/mainline/zoom.md |
-
+| Beepy-tmux| https://github.com/youngoris/beepy-tmux |
 
 ### System Tweaks
 
